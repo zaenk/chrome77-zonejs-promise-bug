@@ -9,6 +9,13 @@ TypeError: Method Promise.prototype.then called on incompatible receiver [object
 
 This repository contains a small sample application which reproduces this behavior.
 
+## Prerequisites
+
+* Tested with node 10 and 12
+* Needs npm 6.11+, older version of npm did not installed webpack properly into node_modules
+
+## Running the app
+
 To run the application:
 
 * Clone the repository
@@ -17,7 +24,9 @@ To run the application:
 * Open [localhost:4200](http://localhost:4200)
 * Open dev tools (F12) and observe the error
 
-This sample application works fine in the following brosers:
+## Notes
+
+This sample application works fine in the following browsers:
 
 * Chrome 76
 * Chrome 78 (Beta)
